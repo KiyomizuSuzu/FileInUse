@@ -1,10 +1,9 @@
 # FileInUse
 This is a [WinForms](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/overview) Graphical User Interface made in C# that integrates the [Microsoft's Sysinternals Handle](https://learn.microsoft.com/en-us/sysinternals/downloads/handle) to identify processes using a file or directory.
 
-## How to add to context menu
+## Context Menu Integration
 Add the following registry entries:
 - `HKEY_CLASSES_ROOT\*\shell\FileInUse\command` with default value `"C:\Path\To\FileInUse.exe" %*`
-  
 - `HKEY_CLASSES_ROOT\Directory\shell\FileInUse\command` with default value `"C:\Path\To\FileInUse.exe" %*`
 
 ### How to use
