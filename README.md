@@ -7,7 +7,7 @@ This is a [WinForms](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/o
 ```powershell
 FileInUse "C:\Path\To\File.txt" "C:\Path\To\Directory"
 ```
-3. Confirm Yes or No to close these processes or not. <br><img src="UI.png" width="400" />
+3. Confirm Yes or No to close these processes or not. <br><br><img src="UI.png" width="400" />
 
 ### To build the source code
 Ensure you have .NET 10 SDK installed from https://dotnet.microsoft.com/en-us/download/dotnet/10.0
