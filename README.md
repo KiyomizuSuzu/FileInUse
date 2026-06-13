@@ -3,7 +3,7 @@ This is a [WinForms](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/o
 
 ### How to use
 1. Download Handle v5.0 from https://learn.microsoft.com/en-us/sysinternals/downloads/handle and place `handle.exe`, `handle64.exe`, `handleArm64.exe` in the same folder as `FileInUse.exe`.
-2. Specify one or more files or directories to inspect:
+2. Specify one or more (files or directories) to inspect:
 
 ```powershell
 FileInUse "C:\Path\To\File.txt" "C:\Path\To\Directory"
