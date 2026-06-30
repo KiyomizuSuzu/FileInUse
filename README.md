@@ -10,9 +10,9 @@ Add the following registry entries:
 
 ### How to use
 1. Download Handle v5.0 from https://learn.microsoft.com/en-us/sysinternals/downloads/handle and place `handle.exe`, `handle64.exe`, `handle64a.exe` in the same folder as `FileOrFolderInUse.exe`.
-2. Specify one or more (files or directories) to inspect:
+2. Run `FileOrFolderInUse.exe` with arguments to specify one or more (files or directories) for inspection:
 ```powershell
-FileInUse "C:\Path\To\File.txt" "C:\Path\To\Directory"
+FileOrFolderInUse "C:\Path\To\File.txt" "C:\Path\To\Directory"
 ```
 3. Confirm Yes or No to close these processes or not. <br><br><img src="UI.png" width="400" />
 
